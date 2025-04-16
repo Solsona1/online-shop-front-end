@@ -1,58 +1,43 @@
-# React + TypeScript + Vite
+# Online Shop Front End Project
 
-This template provides a minimal setup to get React working in Vite with HMR and
-some ESLint rules.
+> [!NOTE]
+> **Current Status:** This project is currently utilizing mock data. Integration with a live API for data fetching will be implemented in a future phase.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)
-  uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc)
-  uses [SWC](https://swc.rs/) for Fast Refresh
+This document outlines the functionalities and page structure of the online shop front-end project. The application aims to provide a user-friendly and responsive interface for browsing products, managing a shopping cart, and for administrators to manage the product catalog.
 
-## Expanding the ESLint configuration
+## Target Users and Functionalities
 
-If you are developing a production application, we recommend updating the
-configuration to enable type aware lint rules:
+### Administrators
 
-- Configure the top-level `parserOptions` property like this:
+* **Product Management (CRUD):**
+    * **Create:** Ability to add new products to the store catalog, including details such as name, description, price and category.
+    * **Update:** Ability to modify existing product information.
+    * **Delete:** Ability to remove products from the store catalog.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
+### All Users (Publicly Accessible)
 
-- Replace `tseslint.configs.recommended` to
-  `tseslint.configs.recommendedTypeChecked` or
-  `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install
-  [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and
-  update the config:
+* **Home Page:**
+    * Provides a brief introductory overview of the online store.
+    * Features a visual carousel to showcase key images.
+* **Location Page:**
+    * Displays the physical store location visually on an embedded map.
+    * Provides the store's physical address in written format.
+* **Products List Page:**
+    * Presents a comprehensive listing of all available products.
+* **Product Detail Page:**
+    * Provides a dedicated page for each product, displaying detailed information such as name, description, price, and available stock.
 
-```js
-// eslint.config.js
-import react from "eslint-plugin-react";
+### Clients (Logged-in Users)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: "18.3" } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs["jsx-runtime"].rules,
-  },
-});
-```
+* **Cart:**
+    * Displays a summary of the products the user has added for purchase.
+    * Provides a clear overview of the total amount.
+    * Facilitates the initiation of the online checkout process.
+
+### Store Administrator (Logged-in User)
+
+* **Manage Products:**
+    * Offers a user interface for performing CRUD operations on products.
+    * Includes a filtering mechanism based on product categories.
