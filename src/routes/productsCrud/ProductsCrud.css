@@ -1,0 +1,35 @@
+.crud {
+  height: 100%;
+  min-height: fit-content;
+  padding: 1.25rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+  gap: 1.25rem;
+}
+
+.crud .header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.crud .header a {
+  padding: 0.75rem 1.5rem;
+}
+
+.crud .header .filter-wrapper {
+  padding: 0.75rem 1.5rem;
+}
+
+/* Styles for small devices */
+@media (max-width: 500px) {
+  .crud {
+    padding: 0.5rem;
+  }
+
+  .crud .header {
+    flex-direction: column;
+  }
+}

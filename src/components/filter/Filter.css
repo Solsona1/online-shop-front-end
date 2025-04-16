@@ -1,0 +1,19 @@
+#filter-component {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#filter-component select {
+  width: 12.5rem;
+  height: 3.125rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-color: var(--primary-color);
+}
+
+#filter-component select {
+  text-transform: capitalize;
+}

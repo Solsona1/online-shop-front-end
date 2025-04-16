@@ -1,0 +1,42 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid .row {
+  border-bottom: 2px solid var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.grid .row div {
+  flex: 1;
+  padding: 0.5rem;
+  align-content: center;
+}
+
+.grid .row .title {
+  font-weight: 600;
+}
+
+.grid .row .action {
+  font-size: 14px;
+}
+
+.grid .row a,
+.grid .row button {
+  padding: 12px 24px;
+}
+
+/* Styles for small devices */
+@media (max-width: 500px) {
+  .grid .row div {
+    padding: 0.25rem;
+  }
+
+  .grid .actions {
+    padding: 0.25rem;
+    font-size: 1rem;
+  }
+}

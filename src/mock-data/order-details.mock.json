@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "amount": 1,
+    "product": {
+      "id": 5,
+      "denomination": "Classical Guitar",
+      "brand": "SAERS",
+      "model": "A50",
+      "price": 1320,
+      "availableStock": 57,
+      "description": "Premium acoustic guitar. Solid Cedar/Spruce soundboard, Indian Rosewood back and sides and African Mahogany neck. Ebony fingerboard.",
+      "category": {
+        "id": 3,
+        "denomination": "strings"
+      },
+      "image": "src/assets/product-5.webp"
+    }
+  },
+  {
+    "id": 2,
+    "amount": 1,
+    "product": {
+      "id": 3,
+      "denomination": "Professional Tenor Trombone",
+      "brand": "Gretzen",
+      "model": "304AF",
+      "price": 5000,
+      "availableStock": 5,
+      "description": "Lacquer Red Brass Bell. Three interchangeable leadpipes. Open-wrap F-attachment and axial flow valve.",
+      "category": {
+        "id": 4,
+        "denomination": "brass"
+      },
+      "image": "src/assets/product-3.avif"
+    }
+  }
+]

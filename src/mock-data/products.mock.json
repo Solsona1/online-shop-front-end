@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "denomination": "Student Acoustic Violin",
+    "brand": "Yamaha",
+    "model": "AV5-SKU",
+    "price": 1200,
+    "availableStock": 34,
+    "description": "Solid Spruce top and Maple back. Inlaid purfling and oil varnish. Ebony fittings. ABS plastic case is stackable. Available in 3 sizes",
+    "category": {
+      "id": 5,
+      "denomination": "woodwind"
+    },
+    "image": "src/assets/product-1.jpg"
+  },
+  {
+    "id": 2,
+    "denomination": "Portable Casio Keyboard",
+    "brand": "Casio",
+    "model": "CDP-135",
+    "price": 800,
+    "availableStock": 11,
+    "description": "88 keys. Digital and portable keyboard. Weights 10,8kg. Color: black.",
+    "category": {
+      "id": 1,
+      "denomination": "electric"
+    },
+    "image": "src/assets/product-2.webp"
+  },
+  {
+    "id": 3,
+    "denomination": "Professional Tenor Trombone",
+    "brand": "Gretzen",
+    "model": "304AF",
+    "price": 5000,
+    "availableStock": 5,
+    "description": "Lacquer Red Brass Bell. Three interchangeable leadpipes. Open-wrap F-attachment and axial flow valve.",
+    "category": {
+      "id": 4,
+      "denomination": "brass"
+    },
+    "image": "src/assets/product-3.avif"
+  },
+  {
+    "id": 4,
+    "denomination": "Wooden Soprano Recorder",
+    "brand": "Yamaha",
+    "model": "YRS-61",
+    "price": 439,
+    "availableStock": 57,
+    "description": "Handcrafted Wooden Soprano Recorder",
+    "category": {
+      "id": 5,
+      "denomination": "woodwind"
+    },
+    "image": "src/assets/product-4.avif"
+  },
+  {
+    "id": 5,
+    "denomination": "Classical Guitar",
+    "brand": "SAERS",
+    "model": "A50",
+    "price": 1320,
+    "availableStock": 57,
+    "description": "Premium acoustic guitar. Solid Cedar/Spruce soundboard, Indian Rosewood back and sides and African Mahogany neck. Ebony fingerboard.",
+    "category": {
+      "id": 3,
+      "denomination": "strings"
+    },
+    "image": "src/assets/product-5.webp"
+  },
+  {
+    "id": 6,
+    "denomination": "Handmade 4/4 Cello",
+    "brand": "Ancona",
+    "model": "ACE-01",
+    "price": 5500,
+    "availableStock": 3,
+    "description": "Includes wooden bow and JC-CE02 case.",
+    "category": {
+      "id": 3,
+      "denomination": "strings"
+    },
+    "image": "src/assets/product-6.jpg"
+  },
+  {
+    "id": 7,
+    "denomination": "Stage Drums Set WM",
+    "brand": "SONOR",
+    "model": "AQ1",
+    "price": 2740,
+    "availableStock": 57,
+    "description": "BD 22\" x 17.5\" (with Mount), SD 14\" x 06\", TT 10\" x 07\", TT 12\" x 08\", FT 16\" x 15\"",
+    "category": {
+      "id": 2,
+      "denomination": "percussion"
+    },
+    "image": "src/assets/product-7.jpg"
+  }
+]

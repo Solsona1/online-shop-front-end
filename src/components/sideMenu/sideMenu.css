@@ -1,0 +1,57 @@
+#side-menu #menu {
+  height: 100vh;
+  background-color: var(--background-light);
+  font-size: 125%;
+}
+
+#side-menu #menu,
+#side-menu #menu .user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 0.5rem;
+}
+
+#side-menu #menu #login-container {
+  margin-top: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+#side-menu #menu .user span {
+  display: inline;
+  font-weight: bold;
+}
+
+#side-menu #menu .user button {
+  padding: 0.5rem 1rem;
+}
+
+#side-menu #menu #login-container .login-btn {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+}
+
+#side-menu #header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#side-menu #header-container .logo img {
+  max-height: 5rem;
+}
+
+#side-menu #header-container button {
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+}
+
+#side-menu #menu #close-btn {
+  position: fixed;
+  top: 1.75rem;
+  right: 1rem;
+  padding: 0.5rem;
+}

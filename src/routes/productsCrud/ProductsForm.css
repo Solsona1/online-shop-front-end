@@ -1,0 +1,96 @@
+.products-form {
+  height: 100%;
+  min-height: fit-content;
+  justify-items: center;
+  font-size: 1.2rem;
+}
+
+.products-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  width: fit-content;
+  min-width: 50%;
+
+  padding: 2rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+
+  border-radius: 5px;
+  background-color: var(--background-light);
+  border: 1px solid var(--primary-color);
+}
+
+.products-form form .row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.products-form form .row p {
+  display: flex;
+  flex-direction: column;
+}
+
+.products-form form .row label {
+  font-weight: bold;
+}
+
+.products-form form .row input {
+  font-size: 1.2rem;
+  height: 2.25rem;
+  width: 100%;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.products-form form .row textarea {
+  font-size: 1.2rem;
+  height: 4.5rem;
+  width: 100%;
+  padding: 0.25rem;
+}
+
+.products-form form .row select {
+  padding: 0.25rem;
+  font-size: 1.2rem;
+  height: 3rem;
+  width: 100%;
+  cursor: pointer;
+  border-color: var(--primary-color);
+}
+
+.products-form form .row select {
+  text-transform: capitalize;
+}
+
+.products-form form .row button {
+  padding: 1.2rem 1rem;
+  margin-top: 0.25rem;
+  font-size: 1.25rem;
+}
+
+.products-form form .row .header {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.products-form form .row .error-msg {
+  color: var(--accent-error);
+}
+
+/* Styles for small devices */
+@media (max-width: 500px) {
+  .products-form {
+    padding: 0.5rem;
+  }
+
+  .products-form form {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    min-width: 80%;
+    width: 100%;
+  }
+}

@@ -1,0 +1,27 @@
+.wrapper {
+  padding: 1.25rem;
+  height: 100%;
+  min-height: fit-content;
+}
+
+.wrapper .products-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1.25rem;
+}
+
+/* Styles for small devices */
+@media (max-width: 500px) {
+  .wrapper {
+    padding: 0.75rem;
+  }
+}
+
+/* Styles for medium devices */
+@media (max-width: 1300px) AND (min-width: 501px) {
+  .wrapper {
+    padding: 1rem;
+  }
+}

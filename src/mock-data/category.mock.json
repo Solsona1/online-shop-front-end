@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "denomination": "electric"
+  },
+  {
+    "id": 2,
+    "denomination": "percussion"
+  },
+  {
+    "id": 3,
+    "denomination": "strings"
+  },
+  {
+    "id": 4,
+    "denomination": "brass"
+  },
+  {
+    "id": 5,
+    "denomination": "woodwind"
+  },
+  {
+    "id": 6,
+    "denomination": "undefined"
+  }
+]
